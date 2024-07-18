@@ -31,7 +31,7 @@ SECRET_KEY = env('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['myjobtracker.onrender.com', 'myjobtracker.onrender.com/signup/login', 'myjobtracker.onrender.com/signup/register','localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['https://myjobtracker.onrender.com', 'https://myjobtracker.onrender.com/signup/login', 'https://myjobtracker.onrender.com/signup/register','http://localhost', 'http://127.0.0.1']
 
 
 # Application definition
